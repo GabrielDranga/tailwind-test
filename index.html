@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 ">
+  <div class="  flex justify-between bg-gray-800 text-white px-4 py-2">
+    <div class="flex px-2 py-2 space-x-2">
+      <button type="button">Menu</button>
+      <button>Dashboard</button>
+      <button>Collections</button>
+    </div>
+    <div class=" flex px-2 py-2 space-x-2">
+      <button>Add</button>
+      <button>Search</button>
+      <button>Notifications</button>
+      <button>Profile</button>
+    </div>
+  </div>
+  <div class="flex text-white">
+    <div class=" w-64 h-screen flex flex-col bg-gray-800">
+      <div class=" pt-8 pb-3 ml-10"> Collections</div>
+      <button class=" py-3 flex justify-start ml-16 ">School</button>
+      <button class="py-3 flex justify-start ml-16">Personal</button>
+      <button class="py-3 flex justify-start ml-16">Design</button>
+    </div>
+    <div class=" w-full flex flex-col space-y-2 pl-40 pt-20 pr-20 ">
+      <div class="">
+        <div class=" rounded-lg flex justify-between bg-gray-900 p-4">
+          <div class="flex space-x-4">
+            <div> X</div>
+            <div>School</div>
+          </div>
+          <div>
+            <button class="animate-bounce h-9 delay transition-delay: 15ms">.</button>
+            <button class="animate-bounce h-6">.</button>
+            <button class="animate-bounce h-9">.</button>
+          </div>
+        </div>
+        <div class=" relative flex flex-row">
+          <button type="button" class=" py-1 px-2 absolute top-5 left-3  flex flex-initial bg-pink-500 rounded-xl">
+            +
+          </button>
+          <input class=" pl-12 w-full bg-gray-700 mt-4 border border-slate-600 rounded-full
+            p-2" placeholder="Add a task" />
+        </div>
+        <div class=" space-y-2">
+          <div class=" pt-4"> Tasks-8</div>
+          <div class="relative bg-gray-800  pl-8 p-4 rounded-lg"> Finish the essay collaboration
+            <input type="checkbox" class="py-1 px-2 absolute top-5 left-3  flex flex-initial bg-pink-500 rounded-xl" />
+            <div class=" text-red-300 ml-10">Today</div>
+          </div>
+          <div class=" bg-gray-800 p-4 rounded-lg"> Send collaboration files to Jerusha </div>
+          <div class=" bg-gray-800 py-4 pl-8 rounded-lg"> Finish the essay collaboration
+            <div class=" text-green-800 ml-6">Thursday</div>
+          </div>
+          <div class=" p-4  bg-gray-800 rounded-lg"> Read next chapter of book in Danish</div>
+          <div class=" p-4 bg-gray-800 rounded-lg"> Do the math for next monday
+            <div class=" text-sky-400 ml-10">Monday</div>
+          </div>
+        </div>
+        <div>
+          <div class=" pt-4"> Completed - 2</div>
+          <div class=" bg-gray-800 line-through p-4 rounded-lg"> Send the finisheed assignament</div>
+          <div class=" bg-gray-800 line-through p-4 rounded-lg"> Read english book chapter 5</div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
